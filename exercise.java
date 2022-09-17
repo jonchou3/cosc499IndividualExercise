@@ -5,16 +5,16 @@
  * @version Sep/16/2022
  */
 public class exercise{
-    int addition(int a, int b)
+    int subtraction(int a, int b)
     {
-        int sum = a + b;
-        return sum;    
+        int difference = a - b;
+        return difference;    
     }
 
     public static void main(String args[]){
         exercise ob = new exercise();
-        int x = 25, y = 35;
-        int result = ob.addition(x,y);
+        int x = 35, y = 25;
+        int result = ob.subtraction(x,y);
         System.out.println(result);
     }
 }
