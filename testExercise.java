@@ -1,9 +1,9 @@
-import org.junit.jupiter.api.Test;
+import org.junit.*;
 
-class testMain {
-    
+class testMain { 
     @Test
-    void sortThis(){
-        main 
+    void addThis(){
+        var calc = new exercise(); 
+        assertEquals(27, calc.addition(20, 7) )
     }
 }

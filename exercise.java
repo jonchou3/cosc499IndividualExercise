@@ -1,8 +1,8 @@
 /**
- * Write a description of class MyClass here.
+ * adds two numbers together
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Jonathan Chou
+ * @version Sep/16/2022
  */
 public class exercise{
     int addition(int a, int b)
@@ -12,7 +12,7 @@ public class exercise{
     }
 
     public static void main(String args[]){
-        main ob = new main();
+        exercise ob = new exercise();
         int x = 25, y = 35;
         int result = ob.addition(x,y);
         System.out.println(result);
