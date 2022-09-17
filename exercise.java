@@ -15,6 +15,10 @@ public class exercise{
         exercise ob = new exercise();
         int x = 35, y = 25;
         int result = ob.addition(x,y);
-        System.out.println(result);
+        System.out.println(x + " + " + y + " = " + result);
+        x = 12;//added different test case
+        y = 58;
+        result = ob.addition(x,y);
+        System.out.println(x + " + " + y + " = " + result);
     }
 }
