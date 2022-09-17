@@ -13,7 +13,7 @@ public class exercise{
 
     public static void main(String args[]){
         exercise ob = new exercise();
-        int x = 25, y = 35;
+        int x = 35, y = 25;
         int result = ob.addition(x,y);
         System.out.println(result);
     }
